@@ -5,12 +5,15 @@ body {
     background-color: #f9f9f9;
 }
 .container {
-    max-width: 800px;
+    max-width: 8000px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(99, 9, 8);
+    display: flow-root;
+    column-gap: 20px;
+    
 }
 h1 {
     font-size: 24px;
@@ -39,13 +42,12 @@ img{
     display:block;
 }
 a{
-    background-image: url('semmi.png');
     height: 55px;
     width: 70px;
- }
+}
  
-img:a:hover {
-    background-image: url('semmi2.png');
-    height: 55px;
-    width: 70px;
- }
+img:hover {
+    width: 40%;
+    height: 40%;
+    display: flow-root;
+}
